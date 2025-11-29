@@ -35,6 +35,9 @@
     whitelist:
       components:
       - HumanoidAppearance
+    overlay:
+      sprite: Structures/Furniture/toilet.rsi
+      state: overlay
   - type: DisposalUnit
     blacklist:
       components:

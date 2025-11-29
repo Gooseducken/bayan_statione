@@ -103,6 +103,66 @@
         {
             "name": "xeno-chair",
             "directions": 4
-        }
+        },
+        {
+      "name": "bar-overlay",
+      "directions": 4
+    },
+    {
+      "name": "chair-overlay",
+      "directions": 4
+    },
+    {
+      "name": "chair-greyscale-overlay",
+      "directions": 4
+    },
+    {
+      "name": "meat-overlay",
+      "directions": 4
+    },
+    {
+      "name": "office-dark-overlay",
+      "directions": 4
+    },
+    {
+      "name": "office-white-overlay",
+      "directions": 4
+    },
+    {
+      "name": "stool-overlay",
+      "directions": 4
+    },
+    {
+      "name": "wooden-overlay",
+      "directions": 4
+    },
+    {
+      "name": "wooden-bench-overlay",
+      "directions": 4
+    },
+    {
+      "name": "wooden-wings-overlay",
+      "directions": 4
+    },
+    {
+      "name": "ritual-overlay",
+      "directions": 4
+    },
+    {
+      "name": "cursed-overlay",
+      "directions": 4
+    },
+    {
+      "name": "steel-bench-overlay",
+      "directions": 4
+    },
+    {
+      "name": "brass_chair-overlay",
+      "directions": 4
+    },
+    {
+        "name": "xeno-overlay",
+        "directions": 4
+    }
     ]
 }

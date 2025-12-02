@@ -1,0 +1,64 @@
+- type: entity
+  id: MagazinePistolSubMachineGunMP2
+  name: Магазин MP2 (9x19 мм Parabellum)
+  parent: [ BaseItem, BaseSecurityContraband ]
+  components:
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    proto: CartridgePistol
+    whitelist:
+      tags:
+      - CartridgePistol
+  - type: Sprite
+    sprite: _bayan/Objects/Weapons/Guns/Ammunition/Magazine/mp2mag.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-1
+        map: ["enum.GunVisualLayers.Mag"]
+      - state: mag-2
+        map: ["enum.GunVisualLayers.Mag"]
+      - state: mag-3
+        map: ["enum.GunVisualLayers.Mag"]
+      - state: mag-4
+        map: ["enum.GunVisualLayers.Mag"]
+      - state: mag-5
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 6
+    zeroVisible: false
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+
+- type: entity
+  id: MagazinePistolSubMachineGunGR9
+  name: Магазин GR-9 (5.56x45 мм)
+  parent: [ BaseItem, BaseSecurityContraband ]
+  components:
+  - type: Tag
+    tags:
+      - MagazinePistolSubMachineGunTopMounted
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    proto: CartridgePistol
+    whitelist:
+      tags:
+      - CartridgePistol
+  - type: Sprite
+    sprite: _bayan/Objects/Weapons/Guns/Ammunition/Magazine/gr9mag.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-1
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container

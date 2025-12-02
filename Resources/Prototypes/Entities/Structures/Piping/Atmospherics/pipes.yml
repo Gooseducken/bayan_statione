@@ -74,10 +74,6 @@
   - type: ContainerContainer # ADT tweak start
     containers:
       VentCrawlerTube: !type:Container
-  # ADT-PipePressureDamage-Start
-  - type: OverpressurePipeDamage
-    limitPressure: 10000
-  # ADT-PipePressureDamage-End
 
 - type: entity
   abstract: true

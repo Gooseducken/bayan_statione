@@ -269,7 +269,7 @@
   # ADT TWEAK END
 
 - type: entity
-  name: WT550
+  name: HKMP5K
   parent: [ BaseWeaponSubMachineGun, BaseSecurityContraband, ADTBaseMagneticGun] # ADT TWEAK
   id: WeaponSubMachineGunWt550
   description: A truly unique firearm, the WT550 was designed by Nanotrasen's Small Arms Division as a compact submachine gun fully controllable with one hand. It contains an exotic internal recoil buffer and feeds from special top-mounted .35 magazines.
@@ -339,6 +339,6 @@
             - CartridgePistol
   - type: MagazineVisuals
     magState: mag
-    steps: 6
+    steps: 1
     zeroVisible: true
   - type: Appearance

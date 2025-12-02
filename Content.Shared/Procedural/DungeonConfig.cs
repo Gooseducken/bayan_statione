@@ -40,6 +40,12 @@ public partial class DungeonConfig
     /// </summary>
     [DataField]
     public int MaxOffset;
+
+    /// <summary>
+    /// Huh?
+    /// </summary>
+    [DataField]
+    public int sizeTag;
 }
 
 [Prototype]

@@ -1,0 +1,28 @@
+- type: entity
+  name: GR-9
+  parent: [BaseWeaponSubMachineGun]
+  id: WeaponSubMachineGunGR9
+  suffix: BAYAN
+  components:
+  - type: Sprite
+    sprite: _bayan/Objects/Weapons/Guns/Rifles/gr9.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Gun
+    minAngle: 5
+    maxAngle: 12
+    availableModes:
+    - FullAuto
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
+  - type: ChamberMagazineAmmoProvider
+    autoEject: true
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: true
+  - type: Appearance

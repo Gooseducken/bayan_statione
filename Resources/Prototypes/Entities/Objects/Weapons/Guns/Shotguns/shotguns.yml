@@ -187,13 +187,13 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: Enforcer
+  name: SPAS-12
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband, ADTBaseAttachableHolder] # adt tweak
   id: WeaponShotgunEnforcer
   description: A premium semi-automatic shotgun, and the pride of all security forces. Uses .50 shotgun shells.
   components: # intend for Enforcer to have wider choke for semi-auto function
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
+    sprite: _bayan/Objects/Weapons/Guns/Shotguns/spas12.rsi
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
   # ADT-Tweak start

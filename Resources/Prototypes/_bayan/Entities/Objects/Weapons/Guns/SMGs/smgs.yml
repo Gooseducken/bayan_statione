@@ -1,0 +1,57 @@
+- type: entity
+  name: MP2
+  parent: [BaseWeaponSubMachineGun]
+  id: WeaponSubMachineGunMP2
+  suffix: BAYAN
+  components:
+  - type: Sprite
+    sprite: _bayan/Objects/Weapons/Guns/SMGs/mp2.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Gun
+    minAngle: 5
+    maxAngle: 12
+    availableModes:
+    - FullAuto
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
+  - type: ChamberMagazineAmmoProvider
+    autoEject: true
+  - type: MagazineVisuals
+    magState: mag
+    steps: 3
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  name: HKM5K
+  parent: [BaseWeaponSubMachineGun]
+  id: WeaponSubMachineGunHKM5K
+  suffix: BAYAN
+  components:
+  - type: Sprite
+    sprite: _bayan/Objects/Weapons/Guns/SMGs/hkmp5k.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Gun
+    minAngle: 3
+    maxAngle: 10
+    availableModes:
+    - FullAuto
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
+  - type: ChamberMagazineAmmoProvider
+    autoEject: true
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: true
+  - type: Appearance

@@ -61,9 +61,9 @@ public sealed class ServerDiscordIdManager : EntitySystem
         {
             try
             {
-               var cfg = IoCManager.Resolve<IConfigurationManager>();
-               var botToken = cfg.GetCVar(ADTCCVars.DiscordTokenBot);
-               discordUsername = await AuthApiHelper.GetAccountDiscord(discordUlong, botToken);
+                var cfg = IoCManager.Resolve<IConfigurationManager>();
+                var botToken = cfg.GetCVar(ADTCCVars.DiscordTokenBot);
+                discordUsername = await AuthApiHelper.GetAccountDiscord(discordUlong, botToken);
             }
             catch (Exception ex)
             {
